@@ -1,0 +1,3 @@
+# GAN
+# WGAN
+# WGAN-GP
