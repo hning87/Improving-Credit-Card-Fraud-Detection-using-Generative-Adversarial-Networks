@@ -1,4 +1,4 @@
-## Data Link: <a href="https://www.kaggle.com/mlg-ulb/creditcardfraud/download">Credit Card Fraud Detection</a>  
+## Data Link: <a href="https://www.kaggle.com/mlg-ulb/creditcardfraud">Credit Card Fraud Detection</a>  
 Note: You need a kaggle account or API to download the dataset
 
 ## GAN Data Visualization  
