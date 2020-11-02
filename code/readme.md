@@ -1,7 +1,10 @@
-# GAN Data Visualization
+## Data Link: <a href="https://www.kaggle.com/mlg-ulb/creditcardfraud/download">Credit Card Fraud Detection</a>  
+Note: You need a kaggle account or API to download the dataset
 
-# Base Model Random Oversampling
+## GAN Data Visualization  
 
-# GAN, WGAN, WGAN_GP
+## Base Model Random Oversampling  
 
-# BAGAN, BEGAN
+## GAN, WGAN, WGAN_GP  
+
+## BAGAN, BEGAN  
