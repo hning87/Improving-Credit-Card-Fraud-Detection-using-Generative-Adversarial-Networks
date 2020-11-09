@@ -22,4 +22,4 @@ y_pred = classification.XGBC_model_predit(x_train_gen, y_train_gen, x_test)
 
 # performance
 utils.check_performance(y_test, y_pred)
-utils.plot_cm(y_test, y_pred, 'Adding GAN 1000 Fraud')
+utils.plot_cm(y_test, y_pred, 'GAN with Pre-Train')
