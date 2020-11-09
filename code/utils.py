@@ -59,8 +59,8 @@ def split(data):
 
 def boxplot_compare(df1, df2, c1, c2, gan_label, title):
   fig, ax = plt.subplots(figsize=(16,10))
-  bp1 = df1.boxplot(color='green', showfliers=False)
-  bp2 = df2.boxplot(color='hotpink', showfliers=False)
+  bp1 = df1.boxplot(color=c1, showfliers=False)
+  bp2 = df2.boxplot(color=c2, showfliers=False)
 
   patch1 = mpatches.Patch(color=c1, label='Original')
   patch2 = mpatches.Patch(color=c2, label=gan_label)
