@@ -57,13 +57,13 @@ def split(data):
     return x_train, x_test, y_train, y_test
 
 
-def boxplot_compare(df1, df2, title):
+def boxplot_compare(df1, df2, c1, c2, gan_label, title):
   fig, ax = plt.subplots(figsize=(16,10))
   bp1 = df1.boxplot(color='green', showfliers=False)
   bp2 = df2.boxplot(color='hotpink', showfliers=False)
 
-  patch1 = mpatches.Patch(color='green', label='Original')
-  patch2 = mpatches.Patch(color='hotpink', label='BEGAN')
+  patch1 = mpatches.Patch(color=c1, label='Original')
+  patch2 = mpatches.Patch(color=c2, label=gan_label)
   plt.legend(handles=[patch1, patch2], prop={'size': 16})
   ax.set_title(title)
   plt.xticks(rotation=90)
