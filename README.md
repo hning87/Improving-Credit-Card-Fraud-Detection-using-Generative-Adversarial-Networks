@@ -3,9 +3,14 @@
 
 Team Member: Hao Ning, Jun Ying
 
-## Project Description
+## Project Description 
 Link to the data:  <a href="https://www.kaggle.com/mlg-ulb/creditcardfraud">Credit Card Fraud Detection</a>  
- 
+As credit card transactions have become the mainstream consumption pattern, the number of credit card frauds has increased dramatically. Even if users are finally compensated, they often spend a lot of time and even money in the process. Therefore, it becomes important to distinguish whether the transaction is fraud or not from the beginning.  
+In this project, we will first use traditional machine learning algorithms for classification training. The data is extremely imbalanced, regular machine learning has limited performanc, therefore we use Generative Adversarial Networks (GAN) to generate more credit card fraud data to oversample the data set. We evaluate the model performance with statistical metrics such as precision, recall, f1 score, ROC AUC score.   
+We find out that, Vanilla GAN slightly improved fraud detection since it only generate lw spectrum data. Improved GAN models showed better fraud detection performance
+because gnerated data have wider range & better overlap with the original data. WGAN_GP and BEGAN perform best among all GANs.  
+Using GAN as an oversampling strategy has great potential in credit card fraud detection and extremely imbalanced dataset
+
 
 ## Project Structure
 This section describes the structure of the repoistory.
