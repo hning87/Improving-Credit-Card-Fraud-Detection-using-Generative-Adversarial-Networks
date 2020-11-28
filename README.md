@@ -11,6 +11,13 @@ We find out that, Vanilla GAN slightly improved fraud detection since it only ge
 because gnerated data have wider range & better overlap with the original data. WGAN_GP and BEGAN perform best among all GANs.  
 Using GAN as an oversampling strategy has great potential in credit card fraud detection and extremely imbalanced dataset
 
+|               | Base     | GAN      | WGAN     | **WGAN_GP**  | GAN + AE |**BEGAN**   | BAGAN    |
+|---------------|----------|----------|----------|----------|----------|----------|----------|
+| Accuracy      | 0.999491 | 0.999491 | 0.999544 | 0.999596 | 0.999544 | 0.999596 | 0.999544 |
+| Precision     | 0.855670 | 0.864583 | 0.867347 | 0.894737 | 0.882979 | 0.903226 | 0.867347 |
+| Recall        | 0.846939 | 0.846939 | 0.867347 | 0.867347 | 0.846939 | 0.857143 | 0.867347 |
+| F1 score      | 0.851282 | 0.855670 | 0.867347 | 0.880829 | 0.864583 | 0.879581 | 0.867347 |
+| ROC AUC score | 0.923346 | 0.923355 | 0.933559 | 0.933586 | 0.923373 | 0.928492 | 0.933559 |
 
 ## Project Structure
 This section describes the structure of the repoistory.
