@@ -33,7 +33,7 @@ Please check code folder for detailed instruction.
 ## Proposal Report
 The group Proposal Report in pdf. 
 
-## Fina Report
+## Final Report
 The final report for our project in pdf.
 
 ## Final Group Presentation
