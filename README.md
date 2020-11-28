@@ -36,7 +36,7 @@ The group Proposal Report in pdf.
 ## Final Report
 The final report for our project in pdf.
 
-## Final Group Presentation
+## Final Presentation
 The group presentation slides in pdf.  
 
 ## Pre_trained_models
