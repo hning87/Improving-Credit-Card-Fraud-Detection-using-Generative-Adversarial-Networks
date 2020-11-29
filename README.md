@@ -41,3 +41,7 @@ The group presentation slides in pdf.
 
 ## Pre_trained_models
 Pretained models (generators) that can generate fraud transcations.
+
+## Individual Work  
+Hao: Base model, GAN, WGAN & WGAN_GP  
+Jun: EDA, GAN+AE, BAGAN & BEGAN  
