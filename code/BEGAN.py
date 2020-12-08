@@ -25,7 +25,7 @@ data_dim = 30
 n_classes = 2
 optimizer = Adam(lr=0.0001, beta_1=0.1, beta_2=0.9)
 
-
+# %% ----------------------------------- GAN ---------------------------------------------------------------------------
 # Build Encoder
 def encoder():
     data = Input(shape=(data_dim,))
