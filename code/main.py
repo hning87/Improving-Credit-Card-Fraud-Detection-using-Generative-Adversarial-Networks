@@ -11,7 +11,7 @@ data, df_fraud = utils.preprocessing(df)
 generator = tf.keras.models.load_model('gan_pre_generator.h5')
 
 # data split
-x_train, x_test, y_train, y_test = utils.split(df)
+x_train, x_test, y_train, y_test = utils.split(data)
 
 # generate fraud data
 gen_1000 = utils.gen_data(generator, 1000)
