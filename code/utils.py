@@ -77,6 +77,13 @@ def gen_data(generator, n_data):
     return gen
 
 
+def gen_bagan_data(generator, n_classes, n_data):
+    noise = np.random.normal(0, 1, size=(n_data, 32))
+    fake_data = generator.predict([noise, np.ones(1000) * n_classes])
+
+    return gen
+
+
 def concatenate(x_train, y_train, gen):
     x_train_gen = np.concatenate((x_train, gen))
     y_gen = np.array(gen.shape[0] * [1])
