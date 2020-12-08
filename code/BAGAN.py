@@ -31,7 +31,7 @@ trainRatio = 5
 df = pd.read_csv('creditcard.csv')
 data, df_fraud = utils.preprocessing(df)
 
-x_train, x_test, y_train, y_test = utils.split(df_fraud)
+x_train, x_test, y_train, y_test = utils.split(data)
 
 # %% ----------------------------------- GAN ---------------------------------------------------------------------------
 # Build Encoder
