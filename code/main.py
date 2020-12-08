@@ -15,6 +15,10 @@ x_train, x_test, y_train, y_test = utils.split(df)
 
 # generate fraud data
 gen_1000 = utils.gen_data(generator, 1000)
+
+# # for BAGAN generate fraud data
+# gen_1000 = utils.gen_bagan_data(generator, 1, 1000)
+
 x_train_gen, y_train_gen = utils.concatenate(x_train, y_train, gen_1000)
 
 # training classification
