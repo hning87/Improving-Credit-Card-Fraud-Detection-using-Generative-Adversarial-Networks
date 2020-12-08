@@ -8,9 +8,13 @@ Check kaggle_login.py & kaggle download.py using your Kaggle account/API.
 The jupyter notebook of results of visulization & different models
 
 ## GAN Data Visualization  
+Run 'GAN Visualization.py' to see the performance of each generator
 
-## Base Model Random Oversampling  
+## Base Model 
+The performances of oversampling and undersampling
 
-## GAN, WGAN, WGAN_GP  
+## GAN, WGAN, WGAN_GP, BAGAN, BEGAN 
+set-up of each GAN and save the genarator as 'generator.h5'
 
-## BAGAN, BEGAN  
+## main
+Load 'generator.h5' and check the performance of classification
