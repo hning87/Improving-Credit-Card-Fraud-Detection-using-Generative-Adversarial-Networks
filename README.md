@@ -10,7 +10,7 @@ As credit card transactions have become the mainstream consumption pattern, the 
 
 In this project, the data is extremely imbalanced, we first use traditional machine learning algorithms for classification training. But regular machine learning has limited performance, therefore we use Generative Adversarial Networks (GAN) to generate more credit card fraud data for oversampling. We evaluate the model performance with statistical metrics such as precision, recall, f1 score, ROC AUC score.   
 
-We find out that, Vanilla GAN slightly improved fraud detection since it only generate lw spectrum data. Improved GAN models showed better fraud detection performance
+We find out that, Vanilla GAN slightly improved fraud detection since it only generate low spectrum data. Improved GAN models showed better fraud detection performance
 because gnerated data have wider range & better overlap with the original data. **WGAN_GP** and **BEGAN** perform best among all GANs.  
 
 Using GAN as an oversampling strategy has great potential in credit card fraud detection and extremely imbalanced dataset
